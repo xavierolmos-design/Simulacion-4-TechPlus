@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #0f0f0f;
+}
+
+/* Header */
+.navbar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    position: sticky;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    color: #cc0000;
+    font-size: 1.5rem;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logo-taco {
+    color: #000;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.logo-palace {
+    color: #145ff1;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #606060;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.header-nav a.active {
+    color: #0f0f0f;
+    border-bottom: 2px solid #0f0f0f;
+}
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    max-width: 500px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: #145ff1;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+    max-width: 2000px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.banner {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.banner-text {
+    flex: 1;
+    min-width: 250px;
+    z-index: 2;
+}
+
+.banner-text h2 {
+    font-size: 2.6rem;
+    color: #1a1a1a;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.banner-text h4 {
+    margin-bottom: 10px;
+    color: #707173;
+}
+
+.banner-text p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.banner-text .domicilio {
+    color: #4b4949;
+    font-weight: bold;
+}
+
+.banner-img-container {
+    flex: 1;
+    min-width: 65%;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-img {
+    width: 1000px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: opacity 0.5s ease;
+}
+
+.button-banner{
+    width: 150px;
+    height: 35px;
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+}
